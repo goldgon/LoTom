@@ -69,7 +69,7 @@
 
 &kp JP_SEMI  &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS       &trans      &trans            &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA
 
-&kp JP_COLON &none      &none      &none       &none　　　　　  &trans      &trans  　　　　　　 &kp DELETE     &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
+&kp JP_COLON &none &none &none &none　&trans &trans &kp DELETE  &kp N1 &kp N2 &kp N3 &mt LCTRL PERIOD
 
 &kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans  &trans      &trans  &mo 3                       &trans    &trans
             >;
