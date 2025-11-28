@@ -72,7 +72,7 @@
             >;
         };
 
-        SCROLL {
+        2 {
             bindings = <
 &trans                                                                                          &trans
 &kp ESCAPE  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
