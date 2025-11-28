@@ -69,9 +69,9 @@
 
 &kp JP_SEMI  &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS &trans &trans &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA
 
-&kp JP_COLON &none &none &none &none　&trans &trans &kp DELETE  &kp N1 &kp N2 &kp N3 &mt LCTRL PERIOD
+&kp JP_COLON &none &none &none &none &trans &trans &kp DELETE  &kp N1 &kp N2 &kp N3 &mt LCTRL PERIOD
 
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans  &trans      &trans  &mo 3                       &trans    &trans
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &trans  &trans &trans  &mo 3                       &trans    &trans
             >;
 
             sensor-bindings = <
@@ -83,11 +83,11 @@
         2 {
             bindings = <
 &trans                                                                                          &trans
-&none        &kp JP_LT      &kp JP_EQUAL   &kp JP_RT  &none　　　  &trans      &trans  　　　　　 &none          &kp JP_PLUS     &none        &kp JP_SLASH  &mkp MB3
+&none        &kp JP_LT      &kp JP_EQUAL   &kp JP_RT  &none &trans &trans &none &kp JP_PLUS     &none        &kp JP_SLASH  &mkp MB3
 
-&none        &kp JP_LPAR    &kp JP_AT      &kp JP_RPAR   &kp MINUS　　　　  &trans      &trans 　　　　　　　　　　  &kp JP_QMARK   &kp ENTER  &kp DOUBLE_QUOTES &kp LS(0x87)  &kp LS(0x1e)
+&none        &kp JP_LPAR    &kp JP_AT      &kp JP_RPAR   &kp MINUS &trans &trans &kp JP_QMARK   &kp ENTER  &kp DOUBLE_QUOTES &kp LS(0x87)  &kp LS(0x1e)
 
-&none        &kp JP_LBRC    &none          &kp JP_RBRC   &none　　　　　　  &trans      &trans  　　　　　　　　　　&kp DELETE          &none           &none         &none         &none
+&none        &kp JP_LBRC    &none          &kp JP_RBRC &none &trans &trans &kp DELETE          &none           &none         &none         &none
 &kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans                  &trans  &trans
             >;
 
@@ -100,11 +100,11 @@
         3 {
             bindings = <
 &trans                                                                                                                                                                                 &trans
-&none        &kp HOME   &kp UP     &kp PAGE_UP      &none               &trans      &trans        &kp TAB          &kp N7          &kp N8        &kp N9         &mkp MB3
+&none        &kp HOME   &kp UP     &kp PAGE_UP      &none &trans &trans &kp TAB          &kp N7          &kp N8        &kp N9         &mkp MB3
 
-&none        &kp LEFT   &kp DOWN   &kp RIGHT        &none              &trans      &trans        &kp BACKSPACE  &kp N4          &mt RGUI N5        &kp N6         &kp ENTER
+&none        &kp LEFT   &kp DOWN   &kp RIGHT        &none &trans &trans &kp BACKSPACE  &kp N4          &mt RGUI N5        &kp N6         &kp ENTER
 
-&none        &kp END    &none      &kp PAGE_DOWN    &none              &trans      &trans       &kp N0         &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
+&none        &kp END    &none      &kp PAGE_DOWN    &none &trans &trans &kp N0         &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
 &trans     &trans                  &trans          &trans                   &trans             &trans      &trans  &trans                                         &trans               &trans
             >;
 
@@ -117,11 +117,11 @@
          4 {
             bindings = <
 &trans                                                                                                                                                                  &trans
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                             &trans      &trans                 &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5 &trans &trans &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
 
-&none   &none   &kp JP_AT   &none   &none                         &trans      &trans                  &none   &none   &none   &kp JP_HASH   &none
+&none   &none   &kp JP_AT   &none   &none &trans &trans &none   &none   &none   &kp JP_HASH   &none
 
-&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp PERIOD    &trans      &trans  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
+&mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3 &kp PERIOD &trans &trans  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
 &trans                   &trans        &trans        &trans                &trans        &trans      &trans  &kp LEFT_SHIFT                               &trans        &trans
             >;
 
@@ -134,11 +134,11 @@
         5 {
             bindings = <
 &trans                                                                                       &trans
-&kp F1  &msc SCRL_RIGHT  &mmv MOVE_UP     &msc SCRL_UP  &kp F5        &trans      &trans            &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp F1  &msc SCRL_RIGHT  &mmv MOVE_UP     &msc SCRL_UP  &kp F5 &trans &trans &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
 
-&none   &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &none     &trans      &kp F13         &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&none   &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT &none &trans &kp F13 &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
 
-&trans  &msc SCRL_LEFT   &trans           &msc SCRL_DOWN  &trans       &trans      &trans         &trans  &trans  &trans  &trans  &kp F11
+&trans  &msc SCRL_LEFT   &trans           &msc SCRL_DOWN &trans &trans &trans &trans  &trans  &trans  &trans  &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                  &trans  &kp F12
             >;
 
