@@ -83,9 +83,11 @@
         2 {
             bindings = <
 &trans                                                                                          &trans
-&kp ESCAPE  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&none        &kp JP_LT      &kp JP_EQUAL   &kp JP_RT  &none　　　  &trans      &trans  　　　　　 &none          &kp JP_PLUS     &none        &kp JP_SLASH  &mkp MB3
+
+&none        &kp JP_LPAR    &kp JP_AT      &kp JP_RPAR   &kp MINUS　　　　  &trans      &trans 　　　　　　　　　　  &kp JP_QMARK   &kp ENTER  &kp DOUBLE_QUOTES &kp LS(0x87)  &kp LS(0x1e)
+
+&none        &kp JP_LBRC    &none          &kp JP_RBRC   &none　　　　　　  &trans      &trans  　　　　　　　　　　&kp DELETE          &none           &none         &none         &none
 &kp F12     &trans  &trans  &trans  &trans  &trans      &trans  &trans                  &trans  &trans
             >;
 
@@ -95,12 +97,14 @@
             >;
         };
 
-        ARROW {
+        3 {
             bindings = <
 &trans                                                                                                                                                                                 &trans
-&kp GRAVE  &kp LC(LS(TAB))         &kp LG(RIGHT)   &kp NUMBER_9             &kp NUMBER_0       &trans      &trans  &trans  &kp RC(LEFT_ARROW)  &kp UP_ARROW      &kp RC(RIGHT_ARROW)  &kp LG(P)
-&kp TAB    &kp LA(LG(LEFT_ARROW))  &kp LG(LEFT)    &kp LG(LA(RIGHT_ARROW))  &kp LEFT_BRACKET   &trans      &trans  &trans  &kp LEFT_ARROW      &kp DOWN_ARROW    &kp RIGHT_ARROW      &kp LG(K)
-&kp LCMD   &kp LG(LS(LEFT_ARROW))  &trans          &kp LG(LS(RIGHT_ARROW))  &kp RIGHT_BRACKET  &trans      &trans  &trans  &trans              &kp LC(UP_ARROW)  &trans               &kp LG(L)
+&none        &kp HOME   &kp UP     &kp PAGE_UP      &none               &trans      &trans        &kp TAB          &kp N7          &kp N8        &kp N9         &mkp MB3
+
+&none        &kp LEFT   &kp DOWN   &kp RIGHT        &none              &trans      &trans        &kp BACKSPACE  &kp N4          &mt RGUI N5        &kp N6         &kp ENTER
+
+&none        &kp END    &none      &kp PAGE_DOWN    &none              &trans      &trans       &kp N0         &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD
 &trans     &trans                  &trans          &trans                   &trans             &trans      &trans  &trans                                         &trans               &trans
             >;
 
@@ -110,11 +114,13 @@
             >;
         };
 
-        NUM {
+         4 {
             bindings = <
 &trans                                                                                                                                                                  &trans
-&kp GRAVE                &kp NUMBER_7  &kp NUMBER_8  &kp LG(LS(NUMBER_4))  &kp PLUS      &trans      &trans  &kp BACKSLASH    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SEMICOLON
-&kp SLASH                &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6          &kp ASTERISK  &trans      &trans  &kp EXCLAMATION  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SQT
+&kp F1  &kp F2  &kp F3  &kp F4  &kp F5                             &trans      &trans                 &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+
+&none   &none   &kp JP_AT   &none   &none                         &trans      &trans                  &none   &none   &none   &kp JP_HASH   &none
+
 &mt LEFT_SHIFT NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3          &kp PERIOD    &trans      &trans  &kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp EQUAL
 &trans                   &trans        &trans        &trans                &trans        &trans      &trans  &kp LEFT_SHIFT                               &trans        &trans
             >;
@@ -125,12 +131,14 @@
             >;
         };
 
-        FUNCTION {
+        5 {
             bindings = <
 &trans                                                                                       &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&trans  &trans  &trans  &trans  &trans  &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
+&kp F1  &msc SCRL_RIGHT  &mmv MOVE_UP     &msc SCRL_UP  &kp F5        &trans      &trans            &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+
+&none   &mmv MOVE_LEFT   &mmv MOVE_DOWN   &mmv MOVE_RIGHT   &none     &trans      &kp F13         &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+
+&trans  &msc SCRL_LEFT   &trans           &msc SCRL_DOWN  &trans       &trans      &trans         &trans  &trans  &trans  &trans  &kp F11
 &trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                  &trans  &kp F12
             >;
 
