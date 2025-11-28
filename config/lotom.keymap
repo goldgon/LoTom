@@ -46,13 +46,13 @@
             bindings = <
 &kp ESCAPE                                                                                                                                                &kp BACKSPACE
 
-&kp ESCAPE          &kp Q        &kp E      &kp U         &kp P            &kp BACKSLASH             &kp BACKSLASH      &kp D        &kp T         &kp R       &lt 5 W       &mkp MB1
+&kp ESCAPE          &kp Q        &kp E      &kp U         &kp P &none &none &kp D        &kp T         &kp R       &lt 5 W       &mkp MB1
 
-&mt LSHIFT TAB      &lt 3 O        &lt 2 A      &lt 1 I         &mt LCTRL F        &mo 6                      &kp BACKSLASH      &mt RCTRL H  &lt 1 Y         &lt 2 K       &lt 3 S       &mt LEFT_SHIFT B
+&mt LSHIFT TAB      &lt 3 O        &lt 2 A      &lt 1 I &mt LCTRL F &none &none &mt RCTRL H  &lt 1 Y         &lt 2 K       &lt 3 S       &mt LEFT_SHIFT B
 
-&lt 4 MINUS    &mt LGUI X   &mt LALT C &mt LSHIFT V  &mt LCTRL L        &kp LEFT_BRACKET           &kp RIGHT_BRACKET  &mt RCTRL N        &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z
+&lt 4 MINUS    &mt LGUI X   &mt LALT C &mt LSHIFT V  &mt LCTRL L &none &none &mt RCTRL N &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z
 
-&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &lt 4 SPACE  &kp LG(SPACE)              &kp ENTER          &lt 3 BACKSPACE                         &lt 2 ESCAPE  &kp RIGHT_BRACKET
+&kp LCTRL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &lt 4 SPACE  &kp LG(SPACE) &kp ENTER &lt 3 BACKSPACE                         &lt 2 ESCAPE  &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <
@@ -65,9 +65,9 @@
             bindings = <
 &trans                                                                                                                       &trans
 
-&kp 0x38     &none      &kp UP     &none       &none           &trans      &trans            &kp TAB          &kp UP          &kp N8        &kp N9         &mkp MB2
+&kp 0x38     &none      &kp UP     &none       &none &trans &trans &kp TAB          &kp UP          &kp N8        &kp N9         &mkp MB2
 
-&kp JP_SEMI  &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS       &trans      &trans            &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA
+&kp JP_SEMI  &kp LEFT   &kp GRAVE  &kp GRAVE   &kp MINUS &trans &trans &kp BACKSPACE  &kp SPACE       &kp TAB       &kp ENTER      &kp COMMA
 
 &kp JP_COLON &none &none &none &none　&trans &trans &kp DELETE  &kp N1 &kp N2 &kp N3 &mt LCTRL PERIOD
 
