@@ -44,7 +44,7 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE                                                                                                                                                &kp BACKSPACE
+&kp F5                                                                                                                                                &kp BACKSPACE
 
 &kp ESCAPE          &kp Q        &kp E      &kp U         &kp P &none &none &kp D        &kp T         &kp R       &lt 5 W       &mkp MB1
 
