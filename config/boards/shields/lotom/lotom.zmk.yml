@@ -3,6 +3,6 @@ id: lotom
 name: lotom
 type: shield
 url: https://github.com/pukuhei/lotom.git
-requires: [xiao_ble]
+requires: [seeduino_xiao_ble]
 features:
   - keys
