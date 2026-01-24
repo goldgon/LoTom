@@ -10,6 +10,8 @@ manifest:
       url-base: https://github.com/englmaxi
     - name: te9no
       url-base: https://github.com/te9no
+    - name: iwk7273
+      url-base: https://github.com/iwk7273
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -26,6 +28,9 @@ manifest:
       revision: main
     - name: zmk-nice-oled
       remote: mctechnology17
+      revision: main
+    - name: zmk-feature-xy_clipper
+      remote: iwk7273
       revision: main
   self:
     path: config
