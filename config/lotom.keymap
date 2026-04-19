@@ -5,6 +5,7 @@
 #include "keycode_japanese.h"
 
 
+
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 80
 
 &mt { 
