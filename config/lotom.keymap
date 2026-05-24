@@ -8,7 +8,6 @@
 
 
 
-
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 50
 
 &mt { 
