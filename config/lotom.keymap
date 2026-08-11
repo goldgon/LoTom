@@ -72,6 +72,40 @@
             layers = <0>;
         };
 
+        mute {
+            bindings = <&kp C_MUTE>;
+            key-positions = <17 18>;
+            layers = <0>;
+        };
+
+        vup {
+            bindings = <&kp C_VOL_UP>;
+            key-positions = <5 6>;
+            layers = <0>;
+        };
+
+        vdn {
+            bindings = <&kp C_VOL_DN>;
+            key-positions = <29 30>;
+            layers = <0>;
+        };
+
+        printscreen {
+            bindings = <&kp PSCRN>;
+            key-positions = <27 29>;
+            layers = <0>;
+        };
+
+
+        space {
+            bindings = <&kp SPACE>;
+            key-positions = <14 18>;
+            layers = <0>;
+        };
+
+
+
+
 };
 
 
@@ -110,8 +144,7 @@
             bindings = <
 &kp F5                                                                                                                                                &kp BACKSPACE
 
-&kp ESCAPE          &kp Q        &kp E      &kp U         &kp P &kp LC(RG(LEFT))        &kp LG(RC(RIGHT)) &kp D        &kp T         &kp R       &lt 5 W       &mkp MB1
-
+&kp ESCAPE      &lt 5 Q    &lt 6 E    &lt 7 U       &kp P      &kp LC(RG(LEFT))        &kp LG(RC(RIGHT))   &kp D        &lt 7 T       &lt 6 R     &lt 5 W     &mkp MB1
 &mt LSHIFT TAB      &lt 3 O        &lt 2 A      &lt 1 I &mt LCTRL F &kp LC(RG(LEFT))        &kp LG(RC(RIGHT)) &mt RCTRL H  &lt 1 Y         &lt 2 K       &lt 3 S       &mt LEFT_SHIFT B
 
 &lt 4 MINUS    &mt LGUI X   &mt LALT C &mt LSHIFT V  &mt LCTRL L &kp LC(RG(LEFT))        &kp LG(RC(RIGHT)) &mt RCTRL N &mt RSHIFT M  &mt RALT G  &mt RGUI J  &lt 4 Z
